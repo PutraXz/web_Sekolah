@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 100%) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: white;
+        color: #fff;
+        height: 0;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #fff;
+    height: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+}
+
+.navbar li a {
+    display: inline-block;
+    padding: 22px 34px;
+    padding-left: 38px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li .active {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+
+/* .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+} */
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+/* navbar */
+
+.home {
+    background-image: url('../image/bgh.png');
+    background-repeat: no-repeat;
+}
+
+.li {
+    font-size: 20px;
+    position: absolute;
+    left: 1060px;
+    font-family: georgia;
+    color: seashell;
+}
+
+
+/* tampilan blog */
+
+.pb {
+    font-size: 35px;
+    color: black;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.hr {
+    margin-top: 91px;
+    margin-bottom: 38px;
+}
+
+
+/* berita */
+
+.berita {
+    margin: 0;
+    padding: 0;
+}
+
+.content-berita {
+    background: transparent;
+    box-shadow: 0 0 15px rgba(33, 33, 33, .2);
+    box-sizing: border-box;
+    margin: 38px 30px;
+    width: 1280px;
+    height: 400px;
+}
+
+.brt {
+    width: 45%;
+    height: 90%;
+    padding: 22px 15px;
+}
+
+.hb {
+    color: black;
+    position: absolute;
+    left: 645px;
+    width: 558px;
+    padding-top: 21px;
+}
+
+.pbrt {
+    color: black;
+    width: 650px;
+    position: absolute;
+    padding-top: 189px;
+    left: 645px;
+}
+
+
+/* tutup tampilan blog */

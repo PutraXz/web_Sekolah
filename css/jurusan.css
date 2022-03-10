@@ -1,0 +1,722 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 100%) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: white;
+        color: #fff;
+        height: 0;
+    }
+}
+ 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #fff;
+    height: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.navbar ul {
+    float: left;
+    list-style: none;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.navbar ul li .active {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+
+/* .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+} */
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    scroll-snap-align: center;
+}
+
+.gambar {
+    position: absolute;
+    width: 300px;
+    left: 150px;
+    bottom: 170px;
+}
+
+
+/* gambar */
+
+.n {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-decoration: underline;
+}
+
+.tabel1 {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 720px;
+    height: 200px;
+    background: transparent;
+    border: solid 1px black;
+}
+
+.tabel2 {
+    position: absolute;
+    left: 10px;
+    top: 380px;
+    width: 720px;
+    height: 200px;
+    background: transparent;
+    border: solid 1px black;
+}
+
+.picne {
+    position: absolute;
+    width: 265px;
+    height: 201px;
+    top: 0px;
+    left: 0px;
+}
+
+.picne2 {
+    position: absolute;
+    width: 265px;
+    height: 201px;
+    top: 0px;
+    left: 0px;
+}
+
+.kabe1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    top: 40px;
+}
+
+.kabe2 {
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.kabe3 {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    top: 40px;
+}
+
+.kabe4 {
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+
+/* kata */
+
+.kata1 {
+    font-size: 45px;
+    position: absolute;
+    bottom: 370px;
+    left: 720px;
+    color: whitesmoke;
+}
+
+.kata2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 206px;
+    max-width: 634px;
+    left: 701px;
+    color: white;
+}
+
+.span1 {
+    font-weight: bold;
+}
+
+
+/* navbar */
+
+.home {
+    background-image: url('../image/bgh.png');
+    background-repeat: no-repeat;
+}
+
+.ho {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 211px;
+    font-family: Georgia;
+    color: black;
+}
+
+.ser {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 880px;
+    font-family: Georgia;
+    color: black;
+}
+
+.co {
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 896px;
+    font-family: Georgia;
+    color: black;
+}
+
+.ju {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 329px;
+    font-family: Georgia;
+    color: black;
+}
+
+.blog {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 443px;
+    font-family: Georgia;
+    color: black;
+}
+
+.esk {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 550px;
+    font-family: Georgia;
+    color: black;
+}
+
+.do {
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 725px;
+    font-family: Georgia;
+    color: black;
+}
+
+.li {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1060px;
+    font-family: georgia;
+    color: black;
+}
+
+
+/* maps */
+
+.maps {
+    position: absolute;
+    top: 1320px;
+    left: 400px;
+}
+
+.kontak {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1500px;
+    left: 55px;
+}
+
+.alamat {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1521px;
+    left: 55px;
+}
+
+.alamat2 {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.telpon {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1560px;
+    left: 55px;
+}
+
+.email {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1589px;
+    left: 55px;
+}
+
+
+/* drop */
+
+
+/* readmore */
+
+.readmore {
+    position: absolute;
+    top: 600px;
+    left: 645px;
+}
+
+.berita {
+    position: absolute;
+    border: 1px solid black;
+    width: 1338px;
+    height: 100%;
+}
+
+
+/* ini slider ya */
+.slider{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 500px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    left: 260px;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    left: 260px;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+
+  
+  
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+
+
+/* tutup slider */
+
+
+/* halaman jurusan */
+
+.jurusan {
+    text-align: center;
+    color: black;
+}
+
+.rpl {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background-color: rgb(51, 168, 207);
+    left: 80px;
+    width: 350px;
+    height: 500px;
+}
+
+.rpl2 {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    top: 800px;
+    left: 80px;
+    width: 350px;
+    height: 250px;
+}
+
+.akl {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    background-color: rgb(51, 168, 207);
+    border-radius: 10px;
+    left: 506px;
+    width: 350px;
+    height: 300px;
+}
+
+.akl2 {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    top: 800px;
+    left: 506px;
+    width: 350px;
+    height: 250px;
+}
+
+.tata {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    background-color: rgb(51, 168, 207);
+    border-radius: 10px;
+    left: 926px;
+    width: 350px;
+    height: 300px;
+}
+
+.tata2 {
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    top: 800px;
+    left: 926px;
+    width: 350px;
+    height: 250px;
+}
+
+.btnrpl {
+    border: 0px;
+    position: absolute;
+    top: 185px;
+    left: 200px;
+    color: rgba(0, 34, 230, 0.7);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btnak {
+    position: absolute;
+    top: 185px;
+    left: 110px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btntb {
+    position: absolute;
+    top: 185px;
+    left: 170px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.pr {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.pa {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.pt {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.mapsju {
+    position: absolute;
+    top: 1120px;
+    left: 400px;
+}
+
+.kontakju {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 1200px;
+    left: 55px;
+}
+
+.alamatju {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1221px;
+    left: 55px;
+}
+
+.alamat2ju {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.telponju {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1260px;
+    left: 55px;
+}
+
+.emailju {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 1289px;
+    left: 55px;
+}
+
+#footer {
+    background: #1e90ff;
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+}
+
+
+
+.fb {
+    font-size: 30px;
+    left: 30px;
+}
+ .pfb{   
+    left: 30px;
+    font-size: 20px;
+    top: 5px;
+    position: absolute;
+}
+
+.ig{
+    font-size: 30px;
+    position: absolute;
+    left: 260px;
+}
+.pig{   
+    left: 288px;
+    font-size: 20px;
+    top: 5px;
+    position: absolute;
+}
+.wa{
+    font-size: 30px;
+    position: absolute;
+    left: 540px;
+}
+.pwa{   
+    left: 568px;
+    font-size: 20px;
+    top: 5px;
+    position: absolute;
+}
+.yt{
+    font-size: 30px;
+    position: absolute;
+    left: 840px;
+}
+.pyt{   
+    left: 868px;
+    font-size: 20px;
+    top: 5px;
+    position: absolute;
+}
+
+
+/* tutup jurusan */
